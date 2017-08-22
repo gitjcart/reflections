@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a git repository, it creates a .git directory in the PWD. This enables you to start saving git repositories within the git system.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The Staging area is the area in between the Repository and the working directory. You can do a "soft" save into the staging area, then actually commit the save into the repository.
