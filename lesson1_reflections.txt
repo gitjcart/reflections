@@ -1,0 +1,29 @@
+# lesson1_reflections.txt
+
+How did viewing a diff between two versions of a file help you spot the bug?
+
+It helps you locate the differeces quickly and easily. The system outputs the information and it's up to us to read through the differences to see where the problem lies.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Automatically saving changes could create problems when you try to run the code. it may have been automatically saved in a state that doesnt allow the code to fully run, thus creating more problems in the long run. If you are only working on an essay for Class, then auto save would be just fine.  but if you are working on code that needs specific syntax, the system may not know when to "automatically save the file. Manually commiting has its issues as well.  maybe the user is inexperienced and unsure when they should commit files. maybe they are inconsistent in their systematic approach to saving files in a usuable state. maybe they forget to make commits after certain changes. Manually commiting gives you the flexibility to save when you want and as often as you want.  Too many changes at once are bad and too few changes at once leaves you with too many versions to choose from when loading an older state.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows saving of multiple files in one commit because some apps require for than one file to run, therefore if you change multiple files and they depend on each other, you would want to be able to change and save all of those files together to recall later to see what changes were made and if they were good changes or bad changes. The best example is a web project. we would most likely have an HTML, CSS and JS file at least and those all depend/run off each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+'git log' shows the log of changes, who made the changes and when.  'git diff' will show the differences between two states of a file.  one newer and one older. you can compare the differences between the files and revert to an older version if you need to, i haven't learned that part yet, but i've heard you can do that kind of thing with git.
+
+How might using version control make you more confident to make changes that could break something?
+
+With version control on our side, we can feel free to make changes without fear of not being able to bring an old save state back to compare the old "working" code with the new "broken" code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for my projects.  I want to learn the versionControl techniques that the professional programmers and engineers use for their projects.  I want to learn the systematic and progmatic approach to puzzle solving using Git as a resource for saving different versions of a software program, webApp or mobileApp.
+
+
+
