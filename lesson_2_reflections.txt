@@ -5,3 +5,11 @@ When you initialize a git repository, it creates a .git directory in the PWD. Th
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The Staging area is the area in between the Repository and the working directory. You can do a "soft" save into the staging area, then actually commit the save into the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the command 'git diff' to check the staging area against the most recent commit to see if they are the same or different. You can also check to see what differences are contained within each respective file.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you want to make "experimental" changes to your coding, then you should create a branch on your master git repository to save different versions of the program. Branches will help by keeping the working copy intact, while allowing you to makes changes to the code and save it in a different location. You can always 'git checkout' and go back to the master branch of the program. This allows trmendous flexibility and oversight for your projects.
