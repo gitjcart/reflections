@@ -17,3 +17,7 @@ If you want to make "experimental" changes to your coding, then you should creat
 How do the diagrams help you visualize the branch structure?
 
 The diagram helps you understand the flow of data inside the git architecture. It lets you put pathways that are easier to understand than just plain text output of a terminal.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is a repository of code that has more developmen. You can have multiple branches wit multiple developers commiting to the project. One could decide to merge two different versions of code, one set of code with certain features and another set of code with certain features and this merge will result in those two different versions of code being combined into one version of the code with a new "master head."
