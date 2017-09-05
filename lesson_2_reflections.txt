@@ -21,3 +21,7 @@ The diagram helps you understand the flow of data inside the git architecture. I
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result of merging two branches is a repository of code that has more developmen. You can have multiple branches wit multiple developers commiting to the project. One could decide to merge two different versions of code, one set of code with certain features and another set of code with certain features and this merge will result in those two different versions of code being combined into one version of the code with a new "master head."
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Auto merging is faster when you don't have different versions floating around, being done by multiple people.  Manually merging is a way to merge when you have multiple versions of the code and multiple people working on the code.
