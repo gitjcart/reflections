@@ -1,1 +1,2 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+  You'd want to work locally if you are the only contributor to the file. If you are working in teams you may want to keep your work accessible for other colleagues.
